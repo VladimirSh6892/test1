@@ -10,7 +10,6 @@
 /* only screen 480px */
 
 .container {
-    width: 100%;
     width: 480px;
     margin: 0 auto;
 }
@@ -253,6 +252,7 @@
 
 .s2{
     margin-top: 477px;
+    box-shadow: 0 0 20px black;
 }
 
 .nopay{
@@ -284,6 +284,7 @@
 
 .s3{
     margin-top: 46px;
+    box-shadow: 0 0 20px black;
 }
 
 .big-ip{
@@ -390,6 +391,7 @@
 
 .s4{
     margin-top: 46px;
+    box-shadow: 0 0 20px black;
 }
 
 .noise{
@@ -418,4 +420,384 @@
 
 .s5{
     margin-top: 21px;
+    box-shadow: 0 0 20px black;
+}
+
+.surround{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.frequency{
+    display: flex;
+    flex-direction: row;
+    padding-left: 102px;
+}
+
+.hight,
+.low,
+.hifi{
+    padding-top: 103px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    color: #fff;
+}
+
+.low{
+    padding-left: 60px;
+}
+ 
+.hifi{
+    padding-left: 62px;
+}
+
+.best{
+    margin-top: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.blue{
+    padding-top: 680px;
+    padding-left: 16px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.s8{
+    margin-top: 24px;
+    box-shadow: 0 0 20px black;
+}
+
+.spare{
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.case{
+    padding-top: 12px;
+    padding-left: 38px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.s8-2{
+    margin-top: 420px;
+    box-shadow: 0 0 20px black;
+}
+
+.indikator{
+    padding-top: 60px;
+    padding-left: 17px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.batery{
+    padding-top: 14px;
+    padding-left: 17px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.batery-right,
+.batery-case,
+.batery-left{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.batery-right{
+    padding-top: 262px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.batery-case{
+    padding-top: 130px;
+    padding-left: 265px;
+}
+
+.batery-left{
+    padding-left: 32px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.s9{
+    margin-top: 35px;
+    box-shadow: 0 0 20px black;
+}
+
+.equipment{
+    padding-top: 57px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px
+}
+
+.long,
+.wide,
+.dimensions{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.5px;
+}
+
+.long{
+    padding-top: 53px;
+    padding-left: 146px;
+}
+
+.wide{
+    padding-left: 310px;
+}
+
+.dimensions{
+    padding-top: 22px;
+    padding-left: 328px;
+}
+
+ol{
+    padding-top: 250px;
+    padding-left: 207px;
+}
+
+li{
+    list-style: none;
+    padding: 3px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.num{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.s10{
+    margin-top: 59px;
+    box-shadow: 0 0 20px black;
+}
+
+.reviews{
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.5px;
+}
+
+.buyer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 56px;
+    padding-left: 21px;
+}
+
+.girl{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-top: 8px;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.age{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 8px;
+}
+
+.appraisal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+}
+
+.star{
+    padding-top: 8px;
+}
+
+.when{
+    padding: 4px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.review-text{
+    padding-top: 21px;
+    padding-left: 17px;
+    padding-bottom: 26px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.order{
+    padding-top: 64px;
+    padding-bottom: 49px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.firstord,
+.secondord{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secondord{
+    padding-top: 16px;
+    padding-bottom: 200px;
+}
+
+.red-1,
+.red-2,
+.red-3,
+.red-4{
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    height: 194px;
+    border-radius: 20px;
+    background-color: #DA0034;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-order1,
+.text-order2,
+.text-order3,
+.text-order4{
+    padding-top: 28px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.main{
+    margin-left: 177px;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.place-order{
+    display: flex;
+    flex-direction: column;
+    width: 438px;
+    height: 503px;
+    background-color: #DA0034;
+    border-radius: 20px;
+    margin-top: 122px;
+    margin-left: 21px;
+}
+
+.orderpl{
+    padding-top: 38px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.getsale{
+    padding-top: 3px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+input[type=text]{
+    padding: 18px;
+    margin-top: 20px;
+    margin-left: 39px;
+    width: 360px;
+    height: 36px;
+    background-color: #DA0034;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+   } 
+
+button{
+    width: 355px;
+    height: 46px;
+    margin-left: 44px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: none;
+    color: #2F3030;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    box-shadow: 0 0 20px black;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=checkbox]{
+    margin-top: 55px;
+    margin-left: 44px;
+}
+
+label{
+    margin-top: 55px;
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
